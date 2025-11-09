@@ -14,6 +14,7 @@ client.on('messageCreate', (message) => {
 
   if (message.content === 'ping') {
     message.reply('pong!')
+    console.log('said pong')
   }
 })
 
